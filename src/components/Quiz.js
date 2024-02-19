@@ -3,7 +3,7 @@ import './Quiz.css'
 import { data } from './Data'
 
 const Quiz = () => {
-
+    console.log('Quiz component rendered');
     let [index, setIndex] = useState(0);
     let [question, setQuestion] = useState(data[index]);
     let [lock, setLock] = useState(false);
